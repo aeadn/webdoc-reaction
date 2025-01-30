@@ -30,7 +30,7 @@ klynt.data = {
         "description": "Webdocumentaire au sujet de \"Réaction\", court métrage pour le festival Nikon, pour montrer le processus de réalisation du projet de A à Z.",
         "mapsKey": "",
         "title": "WEBDOC_REACTION",
-        "modificationDate": 1738225011030,
+        "modificationDate": 1738225640545,
         "overlayCloseButtonRight": 16,
         "ratio": "16/9",
         "primaryColor": 3355443,
@@ -984,10 +984,10 @@ klynt.data = {
     "mainSequence": "5BBE91E1-B378-6DE8-ED9B-40BA984CC76F",
     "aliases": {
         "aliasToId": {
-            "Webdoc": "790E8690-548B-532B-AF77-40BD037002B3",
-            "Réaction": "F66631C8-10AC-7975-ADA8-40BD32F1EB93",
+            "Accueil": "5BBE91E1-B378-6DE8-ED9B-40BA984CC76F",
             "Menu": "817072DE-3AE2-3B71-256B-460F91627A9A",
-            "Accueil": "5BBE91E1-B378-6DE8-ED9B-40BA984CC76F"
+            "Webdoc": "790E8690-548B-532B-AF77-40BD037002B3",
+            "Réaction": "F66631C8-10AC-7975-ADA8-40BD32F1EB93"
         },
         "idToAlias": {
             "F66631C8-10AC-7975-ADA8-40BD32F1EB93": "Réaction",
@@ -1087,8 +1087,8 @@ klynt.data = {
         "image": "Player/css/editor/img/watermark.png",
         "displayOnStartSequence": true,
         "action": {
-            "type": "openWidget",
-            "target": "null"
+            "type": "openSequence",
+            "target": "5BBE91E1-B378-6DE8-ED9B-40BA984CC76F"
         }
     }
 }
